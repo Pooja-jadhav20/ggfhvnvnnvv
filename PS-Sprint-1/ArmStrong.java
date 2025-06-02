@@ -12,7 +12,7 @@ public class ArmStrong {
 		while(num!=0) {
 			int temp=num%10; // last gidit
 			count+=Math.pow(temp, length);
-			num /=10;
+			num /=10;  // remove last digit
 			
 		}
 		if(count==OriginalNO) {
